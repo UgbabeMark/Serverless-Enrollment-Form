@@ -1,0 +1,35 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px; 
+  }
+  
+  label {
+    margin-top: 15px; 
+    font-weight: normal;
+    font-size: medium;
+  }
+  
+  input[type="submit"] {
+    margin-top: 20px;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
