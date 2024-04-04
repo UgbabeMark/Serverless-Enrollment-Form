@@ -1,5 +1,7 @@
 # AWS Serverless Enrollment Form
 
+![Enrollment](enrollment.png)
+
 Welcome to the AWS Serverless Enrollment Form project repository! This project enables users to fill out a form online and securely submit their information. 
 
 The submitted data is stored in an Amazon DynamoDB table for further processing. 
