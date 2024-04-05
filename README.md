@@ -47,7 +47,8 @@ Attach the IAM role to the Lambda function to enable interaction with DynamoDB a
 
 # 3. Lambda Function
 Deploy the provided Python code (lambda_function.py) as a Lambda function in your AWS environment. 
-
+![Enrollment](Function.png)
+![Enrollment](Lambda-permission.png)
 Ensure that the function has the necessary permissions to read from and write to DynamoDB.
 
 # 4. API Gateway
