@@ -69,7 +69,17 @@ Configure endpoints for form submission and enable CORS to allow cross-origin re
 # 5. Frontend Deployment
 Host the provided HTML, CSS, and JavaScript files (index.html, styles.css, script.js) on a web server or a serverless hosting platform like AWS S3. 
 
+![Enrollment](frontend.png)
+
+![Enrollment](API_ARN.png)
+
 Update the API endpoint URLs in the JavaScript file to match your API Gateway endpoints.
+
+# 6. Data stored in DynamoDB-Table
+
+Data entered in frontend
+
+Data In DynamoDB-Table
 
 # Usage:
 
