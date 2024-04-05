@@ -75,9 +75,13 @@ Host the provided HTML, CSS, and JavaScript files (index.html, styles.css, scrip
 
 Update the API endpoint URLs in the JavaScript file to match your API Gateway endpoints.
 
-# 6. Data stored in DynamoDB-Table
+# 6. Data stored in DynamoDB-Table (final result)
 
 Data entered in frontend
+
+![Enrollment](detais.png)
+
+![Enrollment](Outcome.png)
 
 Data In DynamoDB-Table
 
