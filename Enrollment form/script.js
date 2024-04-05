@@ -11,7 +11,7 @@ function submitForm() {
     const xhr = new XMLHttpRequest();
 
     // Set up request
-    xhr.open('POST', 'https://55m4km25pg.execute-api.us-east-1.amazonaws.com/prod/register', true);
+    xhr.open('POST', 'API_ARN/enroll', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
 
     // Set up response handler
