@@ -32,19 +32,31 @@ Easy deployment and integration with AWS services.
 Follow these steps to set up the AWS Serverless Enrollment Form project:
 
 # 1. DynamoDB Table
-Create a DynamoDB table to store the submitted form data. Define the necessary attributes to capture user information such as name, email, and phone number.
+Create a DynamoDB table to store the submitted form data. 
+![Enrollment](Creating_Dynamodb.png)
+keep every settings default and create a DynamoDB Table
+
+Define the necessary attributes to capture user information such as name, email, and phone number.
 
 # 2. IAM Role
-Create an IAM role with permissions to access DynamoDB and CloudWatch. Attach the IAM role to the Lambda function to enable interaction with DynamoDB.
+Create an IAM role with permissions to access DynamoDB and CloudWatch. 
+
+Attach the IAM role to the Lambda function to enable interaction with DynamoDB.
 
 # 3. Lambda Function
-Deploy the provided Python code (lambda_function.py) as a Lambda function in your AWS environment. Ensure that the function has the necessary permissions to read from and write to DynamoDB.
+Deploy the provided Python code (lambda_function.py) as a Lambda function in your AWS environment. 
+
+Ensure that the function has the necessary permissions to read from and write to DynamoDB.
 
 # 4. API Gateway
-Set up an API Gateway to serve as a trigger for the Lambda function. Configure endpoints for form submission and enable CORS to allow cross-origin requests from the frontend.
+Set up an API Gateway to serve as a trigger for the Lambda function. 
+
+Configure endpoints for form submission and enable CORS to allow cross-origin requests from the frontend.
 
 # 5. Frontend Deployment
-Host the provided HTML, CSS, and JavaScript files (index.html, styles.css, script.js) on a web server or a serverless hosting platform like AWS S3. Update the API endpoint URLs in the JavaScript file to match your API Gateway endpoints.
+Host the provided HTML, CSS, and JavaScript files (index.html, styles.css, script.js) on a web server or a serverless hosting platform like AWS S3. 
+
+Update the API endpoint URLs in the JavaScript file to match your API Gateway endpoints.
 
 # Usage:
 
