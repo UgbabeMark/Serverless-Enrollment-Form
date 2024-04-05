@@ -37,6 +37,7 @@ Create a DynamoDB table to store the submitted form data.
 keep every settings default and create a DynamoDB Table
 
 Define the necessary attributes to capture user information such as name, email, and phone number.
+![Enrollment](dynamo-att.png)
 
 # 2. IAM Role
 Create an IAM role with permissions to access DynamoDB and CloudWatch. 
@@ -53,6 +54,12 @@ Ensure that the function has the necessary permissions to read from and write to
 
 # 4. API Gateway
 Set up an API Gateway to serve as a trigger for the Lambda function. 
+
+![Enrollment](API.png)
+
+![Enrollment](Lambda-trigger.png)
+
+![Enrollment](Enable-CORS.png)
 
 Configure endpoints for form submission and enable CORS to allow cross-origin requests from the frontend.
 
