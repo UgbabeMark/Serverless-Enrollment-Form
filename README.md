@@ -37,7 +37,7 @@ Create a DynamoDB table to store the submitted form data.
 keep every settings default and create a DynamoDB Table
 
 Define the necessary attributes to capture user information such as name, email, and phone number.
-![Enrollment](dynamo-att.png)
+![Enrollment](Dynamo-att.png)
 
 # 2. IAM Role
 Create an IAM role with permissions to access DynamoDB and CloudWatch. 
