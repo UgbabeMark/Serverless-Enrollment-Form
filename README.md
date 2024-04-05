@@ -41,7 +41,9 @@ Define the necessary attributes to capture user information such as name, email,
 # 2. IAM Role
 Create an IAM role with permissions to access DynamoDB and CloudWatch. 
 
-Attach the IAM role to the Lambda function to enable interaction with DynamoDB.
+![Enrollment](IAM-Role.png)
+
+Attach the IAM role to the Lambda function to enable interaction with DynamoDB and Cloudwatch.
 
 # 3. Lambda Function
 Deploy the provided Python code (lambda_function.py) as a Lambda function in your AWS environment. 
