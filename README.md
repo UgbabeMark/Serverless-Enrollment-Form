@@ -33,10 +33,13 @@ Follow these steps to set up the AWS Serverless Enrollment Form project:
 
 # 1. DynamoDB Table
 Create a DynamoDB table to store the submitted form data. 
+
 ![Enrollment](Creating_Dynamodb.png)
+
 keep every settings default and create a DynamoDB Table
 
 Define the necessary attributes to capture user information such as name, email, and phone number.
+
 ![Enrollment](Dynamo-att.png)
 
 # 2. IAM Role
